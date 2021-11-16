@@ -13,6 +13,11 @@ createServer({
       transactions: [
         {
           id: 1,
+          title: 'Freenlance de website',
+          type: 'deposit',
+          category: 'Dev',
+          amount: 6000,
+          createdAt: new Date('2021-11-16 09:00:00')
         }
       ]
     })
